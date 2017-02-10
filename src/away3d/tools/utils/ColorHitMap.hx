@@ -204,7 +204,7 @@ public class ColorHitMap extends EventDispatcher
 
 class ColorObject
 {
-public var color:uint;
-public var eventID:String;
-public var listener:Function;
+	public var color:uint;
+	public var eventID:String;
+	public var listener:Function;
 }

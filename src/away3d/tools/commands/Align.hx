@@ -296,13 +296,13 @@ public class Align
 
 class MeshBound
 {
-import away3d.entities.Mesh;
-
-public var mesh:Mesh;
-public var minX:Number;
-public var minY:Number;
-public var minZ:Number;
-public var maxX:Number;
-public var maxY:Number;
-public var maxZ:Number;
+	import away3d.entities.Mesh;
+	
+	public var mesh:Mesh;
+	public var minX:Number;
+	public var minY:Number;
+	public var minZ:Number;
+	public var maxX:Number;
+	public var maxY:Number;
+	public var maxZ:Number;
 }

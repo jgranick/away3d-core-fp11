@@ -859,71 +859,71 @@ import away3d.textures.Texture2DBase;
 
 class ObjectGroup
 {
-public var name:String;
-public var groups:Vector.<Group> = new Vector.<Group>();
-
-public function ObjectGroup()
-{
-}
+	public var name:String;
+	public var groups:Vector.<Group> = new Vector.<Group>();
+	
+	public function ObjectGroup()
+	{
+	}
 }
 
 class Group
 {
-public var name:String;
-public var materialID:String;
-public var materialGroups:Vector.<MaterialGroup> = new Vector.<MaterialGroup>();
-
-public function Group()
-{
-}
+	public var name:String;
+	public var materialID:String;
+	public var materialGroups:Vector.<MaterialGroup> = new Vector.<MaterialGroup>();
+	
+	public function Group()
+	{
+	}
 }
 
 class MaterialGroup
 {
-public var url:String;
-public var faces:Vector.<FaceData> = new Vector.<FaceData>();
-
-public function MaterialGroup()
-{
-}
+	public var url:String;
+	public var faces:Vector.<FaceData> = new Vector.<FaceData>();
+	
+	public function MaterialGroup()
+	{
+	}
 }
 
 class SpecularData
 {
-public var materialID:String;
-public var basicSpecularMethod:BasicSpecularMethod;
-public var ambientColor:uint = 0xFFFFFF;
-public var alpha:Number = 1;
-
-public function SpecularData()
-{
-}
+	public var materialID:String;
+	public var basicSpecularMethod:BasicSpecularMethod;
+	public var ambientColor:uint = 0xFFFFFF;
+	public var alpha:Number = 1;
+	
+	public function SpecularData()
+	{
+	}
 }
 
 class LoadedMaterial
 {
-import away3d.materials.ColorMaterial;
-
-public var materialID:String;
-public var texture:Texture2DBase;
-public var cm:MaterialBase;
-public var specularMethod:BasicSpecularMethod;
-public var ambientColor:uint = 0xFFFFFF;
-public var alpha:Number = 1;
-
-public function LoadedMaterial()
-{
-}
+	import away3d.materials.ColorMaterial;
+	
+	public var materialID:String;
+	public var texture:Texture2DBase;
+	public var cm:MaterialBase;
+	public var specularMethod:BasicSpecularMethod;
+	public var ambientColor:uint = 0xFFFFFF;
+	public var alpha:Number = 1;
+	
+	public function LoadedMaterial()
+	{
+	}
 }
 
 class FaceData
 {
-public var vertexIndices:Vector.<uint> = new Vector.<uint>();
-public var uvIndices:Vector.<uint> = new Vector.<uint>();
-public var normalIndices:Vector.<uint> = new Vector.<uint>();
-public var indexIds:Vector.<String> = new Vector.<String>(); // used for real index lookups
-
-public function FaceData()
-{
-}
+	public var vertexIndices:Vector.<uint> = new Vector.<uint>();
+	public var uvIndices:Vector.<uint> = new Vector.<uint>();
+	public var normalIndices:Vector.<uint> = new Vector.<uint>();
+	public var indexIds:Vector.<String> = new Vector.<String>(); // used for real index lookups
+	
+	public function FaceData()
+	{
+	}
 }

@@ -1,20 +1,19 @@
-package away3d.loaders.parsers
+package away3d.loaders.parsers {
+
+/**
+ * An enumeration providing values to describe the data format of parsed data.
+ */
+public class ParserDataFormat
 {
+	/**
+	 * Describes the format of a binary file.
+	 */
+	public static const BINARY:String = "binary";
 	
 	/**
-	 * An enumeration providing values to describe the data format of parsed data.
+	 * Describes the format of a plain text file.
 	 */
-	public class ParserDataFormat
-	{
-		/**
-		 * Describes the format of a binary file.
-		 */
-		public static const BINARY:String = "binary";
-		
-		/**
-		 * Describes the format of a plain text file.
-		 */
-		public static const PLAIN_TEXT:String = "plainText";
-	}
+	public static const PLAIN_TEXT:String = "plainText";
+}
 }
 

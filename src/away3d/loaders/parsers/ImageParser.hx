@@ -1,6 +1,5 @@
-package away3d.loaders.parsers
+package away3d.loaders.parsers {
 
-{
 import away3d.arcane;
 import away3d.events.AssetEvent;
 import away3d.library.assets.BitmapDataAsset;

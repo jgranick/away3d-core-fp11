@@ -293,15 +293,21 @@ public class MeshDebugger
 
 class MeshDebugData
 {
-import away3d.containers.Scene3D;
-import away3d.entities.Mesh;
-import away3d.tools.helpers.data.MeshDebug;
-
-public var mesh:Mesh;
-public var meshDebug:MeshDebug;
-public var scene:Scene3D;
-public var displayNormals:Boolean;
-public var displayVertexNormals:Boolean;
-public var displayTangents:Boolean;
-public var addChilded:Boolean;
+	import away3d.containers.Scene3D;
+	import away3d.entities.Mesh;
+	import away3d.tools.helpers.data.MeshDebug;
+	
+	
+	
+	
+	
+	
+	
+	public var mesh:Mesh;
+	public var meshDebug:MeshDebug;
+	public var scene:Scene3D;
+	public var displayNormals:Boolean;
+	public var displayVertexNormals:Boolean;
+	public var displayTangents:Boolean;
+	public var addChilded:Boolean;
 }

@@ -813,73 +813,73 @@ import flash.geom.Vector3D;
 
 internal class TextureVO
 {
-public var url:String;
-public var texture:Texture2DBase;
-
-public function TextureVO()
-{
-}
+	public var url:String;
+	public var texture:Texture2DBase;
+	
+	public function TextureVO()
+	{
+	}
 }
 
 internal class MaterialVO
 {
-public var name:String;
-public var ambientColor:uint;
-public var diffuseColor:uint;
-public var specularColor:uint;
-public var twoSided:Boolean;
-public var colorMap:TextureVO;
-public var specularMap:TextureVO;
-public var material:MaterialBase;
-
-public function MaterialVO()
-{
-}
+	public var name:String;
+	public var ambientColor:uint;
+	public var diffuseColor:uint;
+	public var specularColor:uint;
+	public var twoSided:Boolean;
+	public var colorMap:TextureVO;
+	public var specularMap:TextureVO;
+	public var material:MaterialBase;
+	
+	public function MaterialVO()
+	{
+	}
 }
 
 internal class ObjectVO
 {
-public var name:String;
-public var type:String;
-public var pivotX:Number;
-public var pivotY:Number;
-public var pivotZ:Number;
-public var transform:Vector.<Number>;
-public var verts:Vector.<Number>;
-public var indices:Vector.<uint>;
-public var uvs:Vector.<Number>;
-public var materialFaces:Object;
-public var materials:Vector.<String>;
-public var smoothingGroups:Vector.<uint>;
-
-public function ObjectVO()
-{
-}
+	public var name:String;
+	public var type:String;
+	public var pivotX:Number;
+	public var pivotY:Number;
+	public var pivotZ:Number;
+	public var transform:Vector.<Number>;
+	public var verts:Vector.<Number>;
+	public var indices:Vector.<uint>;
+	public var uvs:Vector.<Number>;
+	public var materialFaces:Object;
+	public var materials:Vector.<String>;
+	public var smoothingGroups:Vector.<uint>;
+	
+	public function ObjectVO()
+	{
+	}
 }
 
 internal class VertexVO
 {
-public var x:Number;
-public var y:Number;
-public var z:Number;
-public var u:Number;
-public var v:Number;
-public var normal:Vector3D;
-public var tangent:Vector3D;
-
-public function VertexVO()
-{
-}
+	public var x:Number;
+	public var y:Number;
+	public var z:Number;
+	public var u:Number;
+	public var v:Number;
+	public var normal:Vector3D;
+	public var tangent:Vector3D;
+	
+	public function VertexVO()
+	{
+	}
 }
 
 internal class FaceVO
 {
-public var a:uint;
-public var b:uint;
-public var c:uint;
-public var smoothGroup:uint;
-
-public function FaceVO()
-{
-}
+	public var a:uint;
+	public var b:uint;
+	public var c:uint;
+	public var smoothGroup:uint;
+	
+	public function FaceVO()
+	{
+	}
 }

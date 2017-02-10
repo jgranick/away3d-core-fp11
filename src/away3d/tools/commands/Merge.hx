@@ -346,13 +346,13 @@ import away3d.materials.MaterialBase;
 
 class GeometryVO
 {
-public var uvs:Vector.<Number>;
-public var vertices:Vector.<Number>;
-public var normals:Vector.<Number>;
-public var indices:Vector.<uint>;
-public var material:MaterialBase;
-
-public function GeometryVO()
-{
-}
+	public var uvs:Vector.<Number>;
+	public var vertices:Vector.<Number>;
+	public var normals:Vector.<Number>;
+	public var indices:Vector.<uint>;
+	public var material:MaterialBase;
+	
+	public function GeometryVO()
+	{
+	}
 }

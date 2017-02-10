@@ -648,36 +648,36 @@ import flash.geom.Vector3D;
 
 class VertexData
 {
-public var index:int;
-public var s:Number;
-public var t:Number;
-public var startWeight:int;
-public var countWeight:int;
-
-public function VertexData()
-{
-}
+	public var index:int;
+	public var s:Number;
+	public var t:Number;
+	public var startWeight:int;
+	public var countWeight:int;
+	
+	public function VertexData()
+	{
+	}
 }
 
 class JointData
 {
-public var index:int;
-public var joint:int;
-public var bias:Number;
-public var pos:Vector3D;
-
-public function JointData()
-{
-}
+	public var index:int;
+	public var joint:int;
+	public var bias:Number;
+	public var pos:Vector3D;
+	
+	public function JointData()
+	{
+	}
 }
 
 class MeshData
 {
-public var vertexData:Vector.<VertexData>;
-public var weightData:Vector.<JointData>;
-public var indices:Vector.<uint>;
-
-public function MeshData()
-{
-}
+	public var vertexData:Vector.<VertexData>;
+	public var weightData:Vector.<JointData>;
+	public var indices:Vector.<uint>;
+	
+	public function MeshData()
+	{
+	}
 }
